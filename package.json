@@ -1,0 +1,25 @@
+{
+  "name": "async-csv-parser",
+  "version": "1.0.0",
+  "description": "Asynchronous CSV Parser with Ampt template",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "ampt"
+  },
+  "dependencies": {
+    "@ampt/data": "^1.0.10",
+    "@ampt/sdk": "^1.0.7",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "papaparse": "^5.4.1"
+  },
+  "ampt": {
+    "app": "async-csv-parser",
+    "org": "emrah"
+  },
+  "files": [
+    "*"
+  ]
+}
